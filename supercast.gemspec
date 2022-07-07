@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_dependency('faraday', '~> 1.0')
-  gem.add_dependency('net-http-persistent', '~> 3.0')
+  gem.add_dependency('net-http-persistent', '~> 4.0')
 
   gem.add_development_dependency 'rspec', '~> 3.8'
   gem.add_development_dependency 'shoulda-matchers', '3.1.2'
